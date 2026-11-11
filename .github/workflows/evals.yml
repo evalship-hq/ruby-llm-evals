@@ -13,7 +13,7 @@ jobs:
       - uses: ruby/setup-ruby@v1
         with:
           bundler-cache: true # runs bundle install and caches the gems; Ruby comes from .ruby-version
-      - run: ./tinyeval -n 3
+      - run: bundle exec tinyeval -n 3
         if: env.ANTHROPIC_API_KEY != ''
       - run: echo "::notice::Add the ANTHROPIC_API_KEY repository secret to run the evals."
         if: env.ANTHROPIC_API_KEY == ''
