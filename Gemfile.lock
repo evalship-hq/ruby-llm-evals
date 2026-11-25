@@ -12,7 +12,7 @@ GEM
     opentelemetry-api (1.11.1)
       logger
     standardwebhooks (1.1.0)
-    tinyeval (0.11.0)
+    tinyeval (0.12.2)
 
 PLATFORMS
   arm64-darwin-24
@@ -20,7 +20,7 @@ PLATFORMS
 
 DEPENDENCIES
   anthropic (~> 2.6)
-  tinyeval (~> 0.11)
+  tinyeval (~> 0.12)
 
 BUNDLED WITH
    2.6.9
